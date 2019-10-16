@@ -13,6 +13,7 @@ public class product {
     }
     public product(String id, String productname,int qty,double price){
 
+
     }
 
     public String getId() {
