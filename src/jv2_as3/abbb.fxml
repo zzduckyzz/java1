@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="jv2_as3.Timer" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fx:id="timeout"  layoutX="271.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="00:00:00" wrappingWidth="52.13671875" />
+      <TextField fx:id="timeInput" layoutX="257.0" layoutY="123.0" prefHeight="25.0" prefWidth="81.0" promptText="Time INPUT" />
+      <Button fx:id="btn" onAction="#run" layoutX="274.0" layoutY="265.0" mnemonicParsing="false" text="Button" />
+      <Text layoutX="266.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Countdown" textAlignment="CENTER" />
+   </children>
+</Pane>
